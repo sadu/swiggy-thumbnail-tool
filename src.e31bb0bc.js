@@ -34577,10 +34577,10 @@ var Cropper = function Cropper(_ref) {
     className: "Cropper__output"
   }, /*#__PURE__*/_react.default.createElement("a", {
     href: croppedSrc2,
-    download: "thumb_".concat(name)
+    download: name.replace('.', '_thumb.')
   }, /*#__PURE__*/_react.default.createElement("img", {
     src: croppedSrc2,
-    download: "thumb_".concat(name)
+    download: name.replace('.', '_thumb.')
   }))));
 };
 
@@ -34702,7 +34702,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60570" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63684" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

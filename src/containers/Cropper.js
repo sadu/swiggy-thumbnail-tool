@@ -62,8 +62,8 @@ const Cropper = ({ src, name }) => {
                 </a>
             </div>
             <div className="Cropper__output">
-                <a href={croppedSrc2} download={`thumb_${name}`}>
-                    <img src={croppedSrc2} download={`thumb_${name}`} />
+                <a href={croppedSrc2} download={name.replace('.', '_thumb.')}>
+                    <img src={croppedSrc2} download={name.replace('.', '_thumb.')} />
                 </a>
             </div>
         </div>
