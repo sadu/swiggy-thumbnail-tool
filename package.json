@@ -1,0 +1,37 @@
+{
+  "name": "swiggy-thumbnail-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "dev": "parcel src/index.html --out-dir .",
+    "build": "parcel build src/index.html --out-dir ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sadu/swiggy-thumbnail-tool.git"
+  },
+  "keywords": [
+    "swiggy",
+    "image",
+    "upload",
+    "thumbnail"
+  ],
+  "author": "sadu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sadu/swiggy-thumbnail-tool/issues"
+  },
+  "homepage": "https://github.com/sadu/swiggy-thumbnail-tool#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.32.13"
+  },
+  "dependencies": {
+    "cropperjs": "^1.5.11",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-cropper": "^2.1.7",
+    "react-dom": "^17.0.2"
+  }
+}
